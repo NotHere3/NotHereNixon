@@ -320,6 +320,8 @@ country_event = { #Nixon ascends
 	
 }
 
+ #VANILLA EVENTS PAST THAT POINT
+
 
 # Amelia Eartharts wants to join the USAAC
 country_event = {
