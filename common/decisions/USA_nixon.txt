@@ -1,0 +1,312 @@
+USA_tricky_dick = {
+	
+	USA_make_a_public_statement = {
+		icon = eng_propaganda_campaigns
+		days_re_enable = 30
+		available = {
+			NOT = { has_country_flag = USA_nixon_is_no_longer_a_crook }
+			NOT = { has_country_flag = USA_nixon_is_everything_everywhere_all_at_once }
+			has_country_leader = {
+				name = "Richard Nixon"
+				ruling_only = yes
+			}
+		}
+		visible = {
+			NOT = { has_country_flag = USA_nixon_is_no_longer_a_crook }
+			NOT = { has_country_flag = USA_nixon_is_everything_everywhere_all_at_once }
+			has_country_leader = {
+				name = "Richard Nixon"
+				ruling_only = yes
+			}
+		}
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			country_event = usa_nixon.4
+		}
+	}
+	
+	USA_wiretap_opposition = {
+		icon = eng_propaganda_campaigns
+		days_re_enable = 20
+		available = {
+			NOT = { has_country_flag = USA_nixon_is_no_longer_a_crook }
+			NOT = { has_country_flag = USA_nixon_is_everything_everywhere_all_at_once }
+			has_country_leader = {
+				name = "Richard Nixon"
+				ruling_only = yes
+			}
+		}
+		visible = {
+			NOT = { has_country_flag = USA_nixon_is_no_longer_a_crook }
+			NOT = { has_country_flag = USA_nixon_is_everything_everywhere_all_at_once }
+			has_country_leader = {
+				name = "Richard Nixon"
+				ruling_only = yes
+			}
+		}
+		fire_only_once = no
+		cost = 25
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = USA.nixon_crookness
+				value = 15
+				tooltip = add_nixon_crookness_greatly_tt
+			}
+			add_to_variable = {
+				var = USA.nixon_public_perception
+				value = -15
+				tooltip = decrease_nixon_public_perception_greatly_tt
+			}
+		}
+	}
+	
+	USA_fight_communism = {
+		icon = eng_propaganda_campaigns
+		days_re_enable = 5
+		available = {
+			NOT = { has_country_flag = USA_nixon_is_no_longer_a_crook }
+			NOT = { has_country_flag = USA_nixon_is_everything_everywhere_all_at_once }
+			has_country_leader = {
+				name = "Richard Nixon"
+				ruling_only = yes
+			}
+		}
+		visible = {
+			NOT = { has_country_flag = USA_nixon_is_no_longer_a_crook }
+			NOT = { has_country_flag = USA_nixon_is_everything_everywhere_all_at_once }
+			has_country_leader = {
+				name = "Richard Nixon"
+				ruling_only = yes
+			}
+		}
+		fire_only_once = no
+		cost = 25
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = USA.nixon_public_perception
+				value = 5
+				tooltip = improve_public_perception_slightly_tt
+			}
+		}
+	}
+	
+	USA_facade_unity = {
+		icon = eng_propaganda_campaigns
+		days_re_enable = 15
+		available = {
+			NOT = { has_country_flag = USA_nixon_is_no_longer_a_crook }
+			NOT = { has_country_flag = USA_nixon_is_everything_everywhere_all_at_once }
+			has_country_leader = {
+				name = "Richard Nixon"
+				ruling_only = yes
+			}
+		}
+		visible = {
+			NOT = { has_country_flag = USA_nixon_is_no_longer_a_crook }
+			NOT = { has_country_flag = USA_nixon_is_everything_everywhere_all_at_once }
+			has_country_leader = {
+				name = "Richard Nixon"
+				ruling_only = yes
+			}
+		}
+		fire_only_once = no
+		cost = 25
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = USA.nixon_crookness
+				value = -5
+				tooltip = decrease_nixon_crookness_slightly_tt
+			}
+			add_to_variable = {
+				var = USA.nixon_public_perception
+				value = 5
+				tooltip = improve_public_perception_slightly_tt
+			}
+		}
+	}
+	
+	USA_promote_pacifism = {
+		icon = eng_propaganda_campaigns
+		days_re_enable = 5
+		available = {
+			NOT = { has_country_flag = USA_nixon_is_no_longer_a_crook }
+			NOT = { has_country_flag = USA_nixon_is_everything_everywhere_all_at_once }
+			has_country_leader = {
+				name = "Richard Nixon"
+				ruling_only = yes
+			}
+		}
+		visible = {
+			NOT = { has_country_flag = USA_nixon_is_no_longer_a_crook }
+			NOT = { has_country_flag = USA_nixon_is_everything_everywhere_all_at_once }
+			has_country_leader = {
+				name = "Richard Nixon"
+				ruling_only = yes
+			}
+		}
+		fire_only_once = no
+		cost = 25
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_war_support = -0.05
+			add_to_variable = {
+				var = USA.nixon_public_perception
+				value = 10
+				tooltip = improve_public_perception_moderately_tt
+			}
+		}
+	}
+	
+	USA_reverse_new_deal_policies = {
+		icon = eng_propaganda_campaigns
+		days_re_enable = 15
+		available = {
+			NOT = { has_country_flag = USA_nixon_is_no_longer_a_crook }
+			NOT = { has_country_flag = USA_nixon_is_everything_everywhere_all_at_once }
+			has_country_leader = {
+				name = "Richard Nixon"
+				ruling_only = yes
+			}
+		}
+		visible = {
+			NOT = { has_country_flag = USA_nixon_is_no_longer_a_crook }
+			NOT = { has_country_flag = USA_nixon_is_everything_everywhere_all_at_once }
+			has_country_leader = {
+				name = "Richard Nixon"
+				ruling_only = yes
+			}
+		}
+		fire_only_once = no
+		cost = 25
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = USA.nixon_crookness
+				value = 15
+				tooltip = add_nixon_crookness_greatly_tt
+			}
+			add_to_variable = {
+				var = USA.nixon_public_perception
+				value = -10
+				tooltip = decrease_nixon_public_perception_moderately_tt
+			}
+		}
+	}
+	
+	USA_nixon_reflects = {
+		icon = eng_propaganda_campaigns
+		days_re_enable = 365
+		available = {
+			NOT = { has_country_flag = USA_nixon_is_no_longer_a_crook }
+			NOT = { has_country_flag = USA_nixon_is_everything_everywhere_all_at_once }
+			has_country_leader = {
+				name = "Richard Nixon"
+				ruling_only = yes
+			}
+		}
+		visible = {
+			NOT = { has_country_flag = USA_nixon_is_no_longer_a_crook }
+			NOT = { has_country_flag = USA_nixon_is_everything_everywhere_all_at_once }
+			has_country_leader = {
+				name = "Richard Nixon"
+				ruling_only = yes
+			}
+		}
+		fire_only_once = no
+		cost = 500
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			set_variable = {
+				var = USA.nixon_crookness
+				value = 0
+				tooltip = nixon_comes_clean_tt
+			}
+			set_variable = {
+				var = USA.nixon_public_perception
+				value = 30
+			}
+			country_event =  usa_nixon.8
+		}
+	}
+	
+	USA_protests_against_nixon = {
+		icon = mission_icon
+		is_good = no
+		activation = {
+			NOT = {
+				has_country_flag = USA_watergate_has_happened
+				has_country_flag = USA_nixon_is_everything_everywhere_all_at_once
+				check_variable = {
+					USA.nixon_public_perception > -90
+				}
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = nixon_get_yourself_together_man
+				NOT = {
+					check_variable = {
+						USA.nixon_public_perception < -70
+				
+					}
+				}
+			}
+		}
+		days_mission_timeout = 30
+		complete_effect = {
+			hidden_effect = {
+				country_event = usa_nixon.2
+			}
+			custom_effect_tooltip = nixon_we_are_so_back
+		}
+		timeout_effect = {
+			country_event = usa_nixon.1
+		}
+	}
+	
+	USA_nixon_ascends = {
+		icon = mission_icon
+		is_good = yes
+		activation = {
+			NOT = {
+				has_country_flag = USA_watergate_has_happened
+				has_country_flag = USA_nixon_is_everything_everywhere_all_at_once
+				check_variable = {
+					USA.nixon_crookness < 200
+				}
+			}
+		}
+		available = {
+				NOT = {
+					check_variable = {
+						USA.nixon_crookness > 199
+				
+					}
+				}
+			
+		}
+		days_mission_timeout = 30
+		timeout_effect = {
+			country_event = usa_nixon.9
+		}
+	}
+}
